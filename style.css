@@ -254,9 +254,9 @@ nav{
 }
 
 .about_btns a{
-    padding: 3px 8px;
+    padding: 4px 8px;
     font-size: 1.25rem;
     color: var(--secondary-color);
     background-image: var(--gradient);
-    border-radius: 100%;
+    border-radius: 5rem;
 }

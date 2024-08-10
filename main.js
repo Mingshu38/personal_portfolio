@@ -44,3 +44,30 @@ const scrollRevealOption = {
     ...scrollRevealOption,
     delay: 2000,
   });
+
+  // About container 
+  ScrollReveal().reveal(".about_image img", {
+    ...scrollRevealOption,
+    origin: "left",
+  });
+
+  ScrollReveal().reveal(".about_content .section_header", {
+    ...scrollRevealOption,
+    delay: 500,
+  });
+
+  ScrollReveal().reveal(".about_content p", {
+    ...scrollRevealOption,
+    delay: 1000,
+  });
+
+  ScrollReveal().reveal(".about_content h4", {
+    ...scrollRevealOption,
+    delay: 1500,
+  });
+
+  ScrollReveal().reveal(".about_btns", {
+    ...scrollRevealOption,
+    delay: 2000,
+  });
+
