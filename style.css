@@ -177,3 +177,35 @@ nav{
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+.header_container{
+    padding-top: 10rem;
+    display: grid;
+    grid-area: 4rem;
+}
+
+.header_image img{
+    max-width: 400px;
+    margin: auto;
+}
+
+.header_content{
+    text-align: center;
+}
+.header_content h4{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.header_content h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+.header_content p{
+    margin-bottom: 2rem;
+    color: var(--text-light);
+}
