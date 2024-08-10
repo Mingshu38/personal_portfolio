@@ -120,3 +120,59 @@ nav{
     justify-content: space-between;
     gap: 2rem;
 }
+
+.nav_header{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+}
+
+.nav_logo a{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav_logo a span{
+    color: var(--primary-color-dark);
+}
+
+.nav_links{
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    transform: translateY(-100%);
+    background-color: var(--secondary-color-light);
+    transition: .5s;
+    z-index: -1;
+}
+
+.nav_links.open{
+    transform: translateY(0);
+}
+
+.link a{
+    transition: .3s;
+}
+
+.link.btn a{
+    color: var(--secondary-color) !important;
+}
+
+.link a:hover{
+    color: var(--primary-color-dark);
+}
+
+.nav_menu_btn{
+    font-size: 1.5rem;
+}
