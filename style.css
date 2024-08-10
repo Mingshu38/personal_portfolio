@@ -209,3 +209,54 @@ nav{
     margin-bottom: 2rem;
     color: var(--text-light);
 }
+
+.about_container{
+    display: grid;
+    gap: 4rem;
+}
+
+.about_image img{
+    max-width: 450px;
+    margin: auto;
+}
+
+.about_content .section_header{
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.about_content p{
+    margin-bottom: 2rem;
+    color: var(--text-light);
+}
+
+.about_content h4{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-light);
+    background-color: var(--secondary-color-light);
+    border-left: 2px solid var(--primary-color-dark);
+    border-radius: 5px;
+}
+
+.about_btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about_btns .download_btn{
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+}
+
+.about_btns a{
+    padding: 3px 8px;
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    background-image: var(--gradient);
+    border-radius: 100%;
+}
