@@ -73,3 +73,8 @@ const scrollRevealOption = {
     delay: 2000,
   });
 
+  // Service container
+ScrollReveal().reveal(".service_card", {
+    duration: 1000,
+    interval: 500,
+})

@@ -294,6 +294,56 @@ nav{
 }
 
 .project_card img{
+    height: 300px;
+    object-fit: cover;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.service_grid{
+    margin-top: 4rem;
+    display: grid;
+    gap: 4rem;
+}
+
+.service_card{
+    position: relative;
+    padding: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+    background-color: var(--secondary-color-light);
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.service_card:hover{
+    border-color: var(--primary-color-dark);
+}
+
+.service_card span{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4px 10px;
+    font-size: 2rem;
+    background-color: var(--secondary-color-light);
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.service_card:hover span{
+    color: var(--secondary-color);
+    background-image: var(--gradient);
+}
+
+.service_card h4{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.service_card p{
+    color: var(--text-light);
 }
