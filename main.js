@@ -14,6 +14,8 @@ navLinks.addEventListener("click", (e)=>{
     menuBtnIcon.setAttribute("class", "ri-menu-3-line")
 });
 
+const mixer = mixitup(".project_grid");
+
 const scrollRevealOption = {
     distance: "50px",
     origin: "bottom",

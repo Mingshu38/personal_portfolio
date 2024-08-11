@@ -260,3 +260,40 @@ nav{
     background-image: var(--gradient);
     border-radius: 5rem;
 }
+
+.project_header{
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project_nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+
+.project_btn{
+    color: var(--white);
+    background-image: none;
+    background-color: transparent;
+}
+
+.mixitup-control-active{
+    color: var(--secondary-color);
+    background-image: var(--gradient);
+}
+
+.project_grid{
+    display: grid;
+    gap: 1rem;
+}
+
+.project_card img{
+    border-radius: 5px;
+    cursor: pointer;
+}
