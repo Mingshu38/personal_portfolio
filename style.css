@@ -347,3 +347,52 @@ nav{
 .service_card p{
     color: var(--text-light);
 }
+
+.swiper{
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.swiper-slide{
+    padding-block: 2rem;
+    background-color: var(--secondary-color-light);
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--primary-color-dark);
+}
+
+.client_card{
+    padding: 2rem 1rem;
+    max-width: 750px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    background-color: var(--secondary-color-light);
+}
+
+.client_card img{
+    max-width: 200px;
+    margin: auto;
+}
+
+.client_card p{
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.client_card h4{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--primary-color-dark);
+}
+
+.client_card h4 span{
+    margin-left: 10px;
+    font-size: 1rem;
+    color: var(--text-light);
+}
