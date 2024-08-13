@@ -16,6 +16,15 @@ navLinks.addEventListener("click", (e)=>{
 
 const mixer = mixitup(".project_grid");
 
+// SWIPER 
+
+const swiper = new Swiper(".swiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
 const scrollRevealOption = {
     distance: "50px",
     origin: "bottom",
