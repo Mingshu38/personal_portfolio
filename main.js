@@ -86,4 +86,10 @@ const scrollRevealOption = {
 ScrollReveal().reveal(".service_card", {
     duration: 1000,
     interval: 500,
-})
+});
+
+// Blog container
+ScrollReveal().reveal(".blog_card", {
+    interval: 500,
+});
+
