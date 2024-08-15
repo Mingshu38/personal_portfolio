@@ -427,3 +427,103 @@ nav{
 .blog_card a:hover{
     color: var(--primary-color-dark);
 }
+
+.contact_form{
+    max-width: 600px;
+    margin-inline: auto;
+    margin-top: 4rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.contact_form .input_row{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact_form input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--primary-color-dark);
+    border-radius: 5px;
+}
+
+.contact_form input::placeholder{
+    color: var(--text-light);
+}
+
+.contact_form .btn{
+    max-width: fit-content;
+    margin-inline: auto;
+    margin-top: 1rem;
+}
+
+.footer{
+    background-color: var(--secondary-color-dark);
+}
+
+.footer_container{
+    display: grid;
+    gap: 2rem;
+}
+
+.footer_col h5{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer_col p{
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+}
+
+.footer_socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer_socials a{
+    margin-bottom: 1rem;
+    padding: 3px 8px;
+    font-size: 1.25rem;
+    background-color: var(--secondary-color-light);
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.footer_socials a:hover{
+    color: var(--secondary-color);
+    background-image: var(--gradient);
+}
+
+.footer_col h4{
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer_links a{
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.footer_links a:hover{
+    color: var(--primary-color-dark);
+}
+
+.footer_bar{
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    text-align: center;
+}
