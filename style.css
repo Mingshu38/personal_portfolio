@@ -56,6 +56,7 @@
     color: var(--secondary-color);
     background-image: var(--gradient);
     border-radius: 5rem;
+    text-align: center;
     cursor: pointer;
 }
 
